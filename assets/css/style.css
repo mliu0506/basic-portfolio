@@ -34,7 +34,7 @@ p:last-child {
 }
 
 h1, h2, h3 {
-	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
 	font-weight: 700;
 	color: #4aaaa5;
 }
@@ -67,7 +67,7 @@ h3{
 	height: 90px;
 	background: #4aaaa5;
 	float: left;
-	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
 	text-align: center;
 	line-height: 90px;
 	color: #ffffff;
@@ -125,11 +125,12 @@ footer {
 	border: 1px solid #ddd;
 
 }
-
+/*
 .float-right {
 	float: right;
 	width: 60%;
 }
+*/
 
 /*portfolio page*/
 
@@ -161,6 +162,8 @@ footer {
 	margin-bottom: 0;
 	font-weight: 300;
 }
+
+/*
 .auth-image {
 	width: 288px;
 	height: 342px;
@@ -168,6 +171,32 @@ footer {
 	float: left;
 	margin-right: 25px;
 }
+*/
+
+/* Author Image*/
+
+figure {
+	text-align: center;
+	text-transform: uppercase;
+	padding: .2em;
+	margin: 0;
+  }
+  
+  figure img {
+	max-width: 100%;
+  }
+
+  .left {
+	float: left;
+	margin-right: 1em;
+  }
+  
+  .right {
+	float: right;
+	margin-left: 1em;
+  }
+
+
 
 /*contact page*/
 
